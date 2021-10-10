@@ -66,7 +66,7 @@ public class Main {
             System.out.println("Високосный");
         }
         else{
-            System.out.println("Не високосный");
+            System.out.println("Невисокосный");
         }
     }
 }
