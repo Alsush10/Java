@@ -3,21 +3,21 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        byte typeByte = 127; //-128
-        System.out.println("Max byte = " + typeByte);
-        short typeShort = 32767; //-32768
-        System.out.println("Max short = " + typeShort);
-        int typeInt = 2147483647; // -2147483648
-        System.out.println("Max int = " + typeInt);
-        long typeLong = 9223372036854775807L; //-9223372036854775808
-        System.out.println("Max long = " + typeLong);
-        float typeFloat = 31.4f; //f - тк иначе считает как double
+        byte typeByte = 65;
+        System.out.println("byte = " + typeByte);
+        short typeShort = 25364;
+        System.out.println("short = " + typeShort);
+        int typeInt = -1447463777;
+        System.out.println("int = " + typeInt);
+        long typeLong = 8823374123876775665L;
+        System.out.println("long = " + typeLong);
+        float typeFloat = 22.3f;
         System.out.println("float: " + typeFloat);
-        double typeDouble = 3.141;
+        double typeDouble = 7.244;
         System.out.println("double: " + typeDouble);
-        char typeChar = 'ы', ch = 102; // 102 - символ 'f'
+        char typeChar = 'и', ch = 119; // символ 'w'
         System.out.println("char: = " + typeChar + " " + ch);
-        boolean typeBoolean = true; //false
+        boolean typeBoolean = true;
         System.out.println("boolean: " + typeBoolean);
 
 
