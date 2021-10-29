@@ -22,7 +22,7 @@ public class Employee {
 
     public void displayInfo(){
 
-        System.out.printf("Name: %s; Job title: %s; Email: %s; Phone number: %s; pay: %d; Age: %d; Vaccine: %b",
+        System.out.printf("Name: %s; Position: %s; Email: %s; Phone number: %s; pay: %d; Age: %d; Vaccine: %b",
                 name, position, email, phone_number, pay, age, vaccine);
         System.out.println();
     }
